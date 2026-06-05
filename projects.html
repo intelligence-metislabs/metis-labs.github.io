@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Metis Labs</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/images/logo.png" alt="METIS LABS" style="height: 40px; width: auto;">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="lang-en">Home</a><a href="index.html" class="lang-th">หน้าแรก</a></li>
+                    <li><a href="about.html" class="lang-en">About</a><a href="about.html" class="lang-th">เกี่ยวกับ</a></li>
+                    <li><a href="projects.html" class="lang-en">Projects</a><a href="projects.html" class="lang-th">โปรเจกต์</a></li>
+                    <li><a href="services.html" class="lang-en">Services</a><a href="services.html" class="lang-th">บริการ</a></li>
+                    <li><a href="contact.html" class="lang-en">Contact</a><a href="contact.html" class="lang-th">ติดต่อ</a></li>
+                    <li>
+                        <button id="lang-toggle" class="btn" style="padding: 5px 10px; font-size: 0.7rem;">TH</button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="projects-hero">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="lang-en">Featured Projects</h2>
+                    <h2 class="lang-th">โปรเจกต์ที่โดดเด่น</h2>
+                </div>
+                
+                <div class="card-grid">
+                    <!-- HeartBleed -->
+                    <div class="card" style="grid-column: 1 / -1; display: flex; flex-direction: column; align-items: center; text-align: center;">
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; width: 100%; margin-bottom: 30px;">
+                            <img src="assets/images/HeartBleed01.jpg" alt="HeartBleed Interface 1" style="width: 100%; height: auto; border: 1px solid var(--border-color);">
+                            <img src="assets/images/HeartBleed02.jpg" alt="HeartBleed Interface 2" style="width: 100%; height: auto; border: 1px solid var(--border-color);">
+                        </div>
+                        <h3 class="lang-en">HeartBleed</h3>
+                        <h3 class="lang-th">HeartBleed</h3>
+                        <p class="lang-en" style="max-width: 800px;">HeartBleed is a modular, high-performance command-line OSINT toolkit designed to discover and correlate publicly available social media and online accounts belonging to a target individual.</p>
+                        <p class="lang-th" style="max-width: 800px;">HeartBleed เป็นชุดเครื่องมือ OSINT แบบคอมมานด์ไลน์ที่มีประสิทธิภาพสูงและเป็นแบบโมดูลาร์ ออกแบบมาเพื่อค้นหาและเชื่อมโยงบัญชีโซเชียลมีเดียและบัญชีออนไลน์ที่เปิดเผยต่อสาธารณะซึ่งเป็นของบุคคลเป้าหมาย</p>
+                        <a href="https://github.com/Alpha07-Intel/HeartBleed.git" class="btn lang-en">View Repository</a>
+                        <a href="https://github.com/Alpha07-Intel/HeartBleed.git" class="btn lang-th">ดู Repository</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="research" style="background: #0a0a0a;">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="lang-en">Research & Innovation</h2>
+                    <h2 class="lang-th">การวิจัยและนวัตกรรม</h2>
+                </div>
+                <div class="text-center">
+                    <p class="lang-en">Our experimental projects explore emerging technologies in intelligence and cybersecurity.</p>
+                    <p class="lang-th">โปรเจกต์เชิงทดลองของเราสำรวจเทคโนโลยีที่เกิดขึ้นใหม่ในการข่าวกรองและความปลอดภัยทางไซเบอร์</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="index.html" class="lang-en">Home</a><a href="index.html" class="lang-th">หน้าแรก</a>
+                <a href="about.html" class="lang-en">About</a><a href="about.html" class="lang-th">เกี่ยวกับ</a>
+                <a href="projects.html" class="lang-en">Projects</a><a href="projects.html" class="lang-th">โปรเจกต์</a>
+                <a href="services.html" class="lang-en">Services</a><a href="services.html" class="lang-th">บริการ</a>
+                <a href="contact.html" class="lang-en">Contact</a><a href="contact.html" class="lang-th">ติดต่อ</a>
+            </div>
+            <p class="copyright">&copy; 2026 Metis Labs. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/animations.js"></script>
+</body>
+</html>
