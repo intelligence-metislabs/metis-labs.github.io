@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://metislabs.online/sitemap_index.xml
+Sitemap: https://metislabs.online/sitemap.xml
